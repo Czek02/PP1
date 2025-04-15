@@ -78,7 +78,7 @@ Fill out the following table, mapping decimal numbers `0` through `15` to their 
 
 Explain how to calculate the number of bits required:
 <details>
-<summary>Your Answer</summary>
+<summary>
 | Decimal | Binary Representation  |
 |---------|------------------------|   
 | 0       | 0000                   |
@@ -96,7 +96,8 @@ Explain how to calculate the number of bits required:
 | 12      | 1100                   |
 | 13      | 1101                   |
 | 14      | 1110                   |
-| 15      | 1111                   |   
+| 15      | 1111                   |  
+   </summary>
 </details>
 
 ---
