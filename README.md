@@ -77,7 +77,7 @@ Fill out the following table, mapping decimal numbers `0` through `15` to their 
 **How many binary digits (bits) are needed?**
 
 Explain how to calculate the number of bits required:
-<details>
+
 
 | Decimal | Binary Representation  |
 |---------|------------------------|   
@@ -98,7 +98,7 @@ Explain how to calculate the number of bits required:
 | 14      | 1110                   |
 | 15      | 1111                   |  
   
-</details>
+
 
 ---
 
