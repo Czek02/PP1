@@ -154,7 +154,7 @@ Use the [K-Map method](https://github.com/STEMgraph/4b957490-badf-4264-b9f2-1b5a
 3. Combine them using OR gates
 4. Minimize the equations
 
-<details>
+
 Q0 = A0
 
 Q<sub>0</sub> = .......
@@ -163,7 +163,7 @@ Q<sub>1</sub> = .......
 
 C<sub>out</sub> = .......
 
-</details>
+
 
 ---
 
