@@ -79,7 +79,24 @@ Fill out the following table, mapping decimal numbers `0` through `15` to their 
 Explain how to calculate the number of bits required:
 <details>
 <summary>Your Answer</summary>
-Erase this text and write your answer here!
+| Decimal | Binary Representation  |
+|---------|------------------------|   
+| 0       | 0000                   |
+| 1       | 0001                   |
+| 2       | 0010                   |
+| 3       | 0011                   |
+| 4       | 0100                   |
+| 5       | 0101                   |
+| 6       | 0110                   |
+| 7       | 0111                   | 
+| 8       | 1000                   |
+| 9       | 1001                   |
+| 10      | 1010                   |
+| 11      | 1011                   | 
+| 12      | 1100                   |
+| 13      | 1101                   |
+| 14      | 1110                   |
+| 15      | 1111                   |   
 </details>
 
 ---
@@ -107,13 +124,24 @@ Refer to the truth table of a 1-bit full adder:
 #### Your Task
 Create a truth table for a **2-bit adder** without carry-in. What are the possible inputs and outputs?
 
->   Your
->
->   table
->
->   goes
->
->   here!
+| A1 | A0 | B1 | B0 | Sum0 (S0) | Sum1 (S1) | Sum2 (S2) |
+|----|----|----|----|-----------|-----------|-----------|
+| 0  | 0  | 0  | 0  | 0         | 0         | 0         |
+| 0  | 0  | 0  | 1  | 1         | 0         | 0         |
+| 0  | 0  | 1  | 0  | 0         | 1         | 0         |
+| 0  | 0  | 1  | 1  | 1         | 1         | 0         |
+| 0  | 1  | 0  | 0  | 1         | 0         | 0         |
+| 0  | 1  | 0  | 1  | 0         | 1         | 0         |
+| 0  | 1  | 1  | 0  | 1         | 1         | 0         |
+| 0  | 1  | 1  | 1  | 0         | 0         | 1         |
+| 1  | 0  | 0  | 0  | 0         | 1         | 0         |
+| 1  | 0  | 0  | 1  | 1         | 1         | 0         |
+| 1  | 0  | 1  | 0  | 0         | 0         | 1         |
+| 1  | 0  | 1  | 1  | 1         | 0         | 1         |
+| 1  | 1  | 0  | 0  | 1         | 1         | 0         |
+| 1  | 1  | 0  | 1  | 0         | 0         | 1         |
+| 1  | 1  | 1  | 0  | 1         | 0         | 1         |
+| 1  | 1  | 1  | 1  | 0         | 1         | 1         |
 
 ---
 
@@ -126,7 +154,7 @@ Use the [K-Map method](https://github.com/STEMgraph/4b957490-badf-4264-b9f2-1b5a
 4. Minimize the equations
 
 <details>
-<summary>The final functions</summary>
+Q0 = A0
 
 Q<sub>0</sub> = .......
 
@@ -143,7 +171,7 @@ Using your Boolean equations, build a logic network in [CircuitVerse](https://ci
 
 <details>
 <summary>Your solution</summary>
-A share link to your solution goes here: <a href=".................">Link!</a>
+A share link to your solution goes here: <a href="">Link!</a>
 </details>
 
 ---
